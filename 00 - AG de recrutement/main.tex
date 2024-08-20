@@ -1,0 +1,129 @@
+\documentclass[compress,12pt,bookmark]{beamer}
+\usepackage{booktabs}
+
+%\usepackage{verbatim}
+
+% set language to french
+\usepackage[french]{babel}
+
+% packages for code
+\usepackage{pgfplots}
+\usetikzlibrary{arrows.meta}
+
+\usepackage{xcolor}
+% Define custom colors
+\definecolor{CustomCyan}{RGB}{0, 183, 235}
+\definecolor{CustomGreen}{RGB}{0, 178, 89}
+\definecolor{CustomYellow}{RGB}{220, 190, 0}
+\definecolor{CustomOrange}{RGB}{255, 135, 0}
+\definecolor{CustomRed}{RGB}{255, 30, 0}
+\definecolor{CustomPurple}{RGB}{128, 0, 128}
+\definecolor{CustomBlack}{RGB}{20, 20, 20}
+\definecolor{StandoutColor}{RGB}{55, 71, 79} % #37474f
+\definecolor{BackgroundColor}{RGB}{206, 215, 219} % #ced7db 
+
+\usetheme{Arguelles} % before color changes !!!
+
+% See theme: https://github.com/piazzai/arguelles/blob/master/beamercolorthemeArguelles.sty
+\setbeamercolor*{structure}{bg=BackgroundColor,fg=StandoutColor}
+% Set the base color for standout slides
+\setbeamercolor{background canvas}{bg=StandoutColor}
+% Set the color of the upper banner (frametitle)
+\setbeamercolor{section in head/foot}{bg=StandoutColor}
+% Set base slide background color
+\setbeamercolor*{normal text}{fg=StandoutColor}
+\setbeamercolor*{inverted text}{fg=BackgroundColor}
+
+
+\title{INSAlgo : AG de recrutement 2024/2025}
+\subtitle{Késako ? Keskonfé ? KiKanKwa ?}
+\event{INSAlgo}
+\date{\today}
+\author{Onyr (Florian RASCOUSSIER)} % ajoutez vous ici, utiliser \and pour ajouter plusieurs personnes
+
+% Logo d'INSAlgo sur le titre
+\titlegraphic{\includegraphics[width=0.2\textwidth]{img/bureau/onyr-128x128.png}}
+
+\begin{document}
+
+%\frame[plain]{\titlepage}
+
+\section{Introduction}
+
+\begin{frame}[plain,standout]
+    \centering
+    \Huge
+    AG INSALGO 2024 - 2025
+
+    \large
+    Association d'algorithmique de l'INSA Lyon
+
+    \includegraphics[width=0.5\textwidth]{img/logos/logo_dark_transparent.png}
+
+    \normalsize
+    Qu'est-ce qu'INSAlgo ? \\
+    Késako ? Keskonfé ? KiKanKwa ?
+    \vfill
+\end{frame}
+
+\begin{frame}
+    \frametitle{Le FBI :}
+    \framesubtitle{(Fantastique Bureau d'INSAlgo)}
+
+    \begin{columns}
+        \column{0.25\textwidth}
+        \begin{minipage}{\textwidth}
+            \includegraphics[width=\textwidth]{img/bureau/onyr-128x128.png}
+            \centering \textbf{Onyr} (Florian) Rascoussier \\
+            - \\
+            \textit{Président}
+        \end{minipage}
+
+        \column{0.25\textwidth}
+        \begin{minipage}{\textwidth}
+            \includegraphics[width=\textwidth]{img/bureau/onyr-128x128.png}
+            \centering \textbf{Cédric} de Andria \\
+            - \\
+            \textit{Secrétaire}
+        \end{minipage}
+
+        \column{0.25\textwidth}
+        \begin{minipage}{\textwidth}
+            \includegraphics[width=\textwidth]{img/bureau/onyr-128x128.png}
+            \centering \textbf{William} Michaud \\
+            - \\
+            \textit{Trésorier}
+        \end{minipage}
+
+        \column{0.25\textwidth}
+        \begin{minipage}{\textwidth}
+            \includegraphics[width=\textwidth]{img/bureau/onyr-128x128.png}
+            \centering \textbf{Polo} Diemunsch \\
+            - \\
+            \textit{Vice-Président}
+        \end{minipage}
+    \end{columns}
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}[plain,standout]
+    \centering
+    \Huge
+    Conclusion
+\end{frame}
+
+% TODO: globalement, repomper les slides de l'année passée...
+
+\begin{frame}
+    \frametitle{That's all folks !}
+    \framesubtitle{Ressources supplémentaires}
+
+    % QR code site d'insalgo
+    % QR code discord
+
+    \centering{Au plaisir de vous voir bientôt !}
+\end{frame}
+
+
+\end{document}
