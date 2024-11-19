@@ -1,7 +1,6 @@
 # Backtracking
 
-## Slides
-  - [Slides](Cours4-Backtracking.pdf)
+- [Slides](Cours4-Backtracking.pdf)
 
 ## Exercices
 
