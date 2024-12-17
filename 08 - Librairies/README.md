@@ -21,7 +21,7 @@ Découverte et explications sur des librairies python utiles.
 
 ### Commentaires
 
-Les exos AOC (Advent Of Code) Nécessitent de lire un fichier texte au lieu de l'input, voici une fonction qui prend le nom du fichier texte et renvoi une liste de strings correspondant aux lignes d'input :
+Les exos AOC (Advent Of Code) nécessitent de lire un fichier texte au lieu de l'input, voici une fonction qui prend le nom du fichier texte et renvoi une liste de strings correspondant aux lignes d'input :
 ```python
 def read(path: str) -> list[str]:
     file = open(path, "r")
