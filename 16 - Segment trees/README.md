@@ -1,4 +1,4 @@
-# Tries
+# Segment trees
 
 [Sildes](16-SegmentTrees.pdf)
 
