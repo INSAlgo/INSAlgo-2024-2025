@@ -2,6 +2,8 @@
 
 [Slides](16-SegmentTrees.pdf)
 
+[Example Implementation](segtreeExample.py)
+
 ## Exercices
 
 ### Lvl 1
