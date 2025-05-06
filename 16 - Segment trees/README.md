@@ -1,6 +1,6 @@
 # Segment trees
 
-[Sildes](16-SegmentTrees.pdf)
+[Slides](16-SegmentTrees.pdf)
 
 ## Exercices
 
